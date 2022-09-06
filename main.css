@@ -1,0 +1,105 @@
+body {
+        background: rgb(2,0,36);
+        background: linear-gradient(132deg, rgba(121,70,70,1) 0%, rgba(24,98,136,1) 33%, rgba(87,167,207,1) 76%, rgba(140,190,60,1) 100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;    
+}
+
+td {
+    font-weight: 900;
+    font-size: larger;
+    
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: #c0d4e7;
+}
+
+.table {
+    --bs-table-color: #c0d4e7;
+    color: #c0d4e7;
+}
+
+.pagination {
+    --bs-pagination-disabled-bg: rgba(87,167,207,1) 76%;
+    --bs-pagination-disabled-color: #c0d4e7;
+    font-weight: 900;
+    
+}
+
+.active>.page-link, .page-link.active {
+    background: linear-gradient(132deg,  rgb(50, 134, 175) 33%, rgba(87,167,207,1) 76%);
+}
+
+.form-control {
+    background-color: rgba(24,98,136,1);
+    opacity: 40.53%;
+    color: white;
+    border-width: 3px;
+}
+
+.btn-success {
+    background-color: rgba(24,98,136,1);
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(24,98,136,1)!important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.85em;
+    color: #c0d4e7;
+    font-weight: 900;
+}
+
+.form-floating {
+    color:white;
+    font-weight: 900;
+}
+
+label {
+    color:#c0d4e7;
+    font-weight: 900!important;
+}
+
+.form-select-sm {
+    background-color: rgba(24,98,136,1);
+    color: white;
+    font-weight: 900;
+    border-color: #c0d4e7;
+    border-width: 3px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+h1 {
+    color: #c0d4e7;
+}
+
+#Modal_update {
+    
+    
+    color: rgba(24,98,136,1)!important;
+}
+
+.modal-body {
+    background: linear-gradient(132deg,  rgb(50, 134, 175) 33%, rgba(87,167,207,1) 76%);
+    
+    color: rgba(24,98,136,1)!important;
+}
+
+.modal-header {
+    background: linear-gradient(132deg,  rgb(50, 134, 175) 33%, rgba(87,167,207,1) 76%);
+    
+    /* color: rgba(24,98,136,1)!important; */
+}
+
+.modal-title {
+    color:white!important;
+}
